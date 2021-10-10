@@ -1,12 +1,13 @@
 :root
 {
     --wielkosc: 20px;
+    --liczbakolumn: 4;
 }
 #canvas
 {
     background-color: rgb(134, 134, 134);
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(var(--liczbakolumn), auto);
     width:fit-content;
     margin: auto;
 }
@@ -20,4 +21,8 @@
 .tileblack
 {
     background-color: rgb(29, 29, 29);
+}
+.dane
+{
+    
 }

@@ -11,7 +11,9 @@ function color(e)
 function start()
 {
     var numerpol = document.getElementById("numerpol").value;
-    //alert(numerpol);
+    var numerkolumn = document.getElementById("numerkolumn").value;
+    document.documentElement.style.setProperty('--liczbakolumn', numerkolumn);
+    //alert(numerkolumn);
     if(!pierwszeuzycie)
     {
         
